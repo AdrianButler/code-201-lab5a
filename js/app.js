@@ -92,11 +92,9 @@ function sumArray(sumArr) { //eslint-disable-line
         {
             response += ',';
         }
-
     }
 
     response += ` was passed in as an array of numbers, and ${sumArray} is their sum.`;
-    console.log(response)
     return [sumArray, response];
 }
 
