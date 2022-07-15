@@ -10,7 +10,8 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
     let sum = a + b;
-    return [sum, `The sum of ${a} and ${b} is ${sum}.`];
+    let response = `The sum of ${a} and ${b} is ${sum}`;
+    return [sum, response];
 }
 
 // Here is the test for sum(); uncomment it to run it
@@ -28,7 +29,8 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-
+let product = a * b;
+return [product, `The product of ${a} and ${b} is ${product}.`];
 }
 
 // Here is the test for multiply(); uncomment it to run it
